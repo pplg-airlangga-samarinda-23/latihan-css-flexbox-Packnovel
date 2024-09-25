@@ -1,0 +1,28 @@
+.child{
+    display: flex;
+    background-color: brown;
+    width: 150px;
+    height: 30px;
+    padding: 1px;
+    margin: 5px;
+    color: black;
+    font-size: 20px;
+    font-style: oblique;
+    font-family: serif;
+    border: 5px inset aqua;
+     box-sizing:border-box ;
+      font-weight:bold ;
+
+
+}
+
+.parent{
+    background-color: rgb(65, 175, 175);
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 600px;
+    border: 20px double darkorchid;
+    margin: 10px;
+    flex-wrap: wrap;
+}
